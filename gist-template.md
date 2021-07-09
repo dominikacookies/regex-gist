@@ -1,21 +1,26 @@
-# Title (replace with your title)
+# Regular Expressions : Email format
 
-Introductory paragraph (replace this with your text)
+This document outlines main regular expression components using an expression for an email as an example.
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Throughout this document, as I describe regex components I will be referring to on that verifies email formatting and looks like so:
+`/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/` .
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
-- [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
+  - [Summary](#summary)
+  - [Table of Contents](#table-of-contents)
+  - [Regex Components](#regex-components)
+    - [Anchors](#anchors)
+    - [Quantifiers](#quantifiers)
+    - [Grouping Constructs](#grouping-constructs)
+    - [Bracket Expressions](#bracket-expressions)
+    - [Character Classes](#character-classes)
+    - [The OR Operator](#the-or-operator)
+    - [Flags](#flags)
+    - [Character Escapes](#character-escapes)
+  - [Author](#author)
 
 ## Regex Components
 
